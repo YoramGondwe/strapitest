@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "products",
+  "collectionName": "customers",
   "info": {
-    "name": "Products",
+    "name": "Customers",
     "description": ""
   },
   "options": {
@@ -11,10 +11,19 @@
     "draftAndPublish": true
   },
   "attributes": {
+    "address": {
+      "model": "address"
+    },
+    "email": {
+      "type": "email"
+    },
     "name": {
       "type": "string"
     },
-    "description": {
+    "phone": {
+      "type": "biginteger"
+    },
+    "avatarUrl": {
       "type": "string"
     }
   }
