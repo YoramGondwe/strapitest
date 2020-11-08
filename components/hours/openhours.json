@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_hours_openhours",
+  "info": {
+    "name": "openhours",
+    "icon": "clock"
+  },
+  "options": {},
+  "attributes": {
+    "open": {
+      "type": "time"
+    },
+    "close": {
+      "type": "time"
+    }
+  }
+}

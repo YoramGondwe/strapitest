@@ -25,6 +25,11 @@
     },
     "avatarUrl": {
       "type": "string"
+    },
+    "openHours": {
+      "type": "component",
+      "repeatable": false,
+      "component": "hours.openhours"
     }
   }
 }

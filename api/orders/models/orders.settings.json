@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "addresses",
+  "collectionName": "orders",
   "info": {
-    "name": "Address",
+    "name": "Orders",
     "description": ""
   },
   "options": {
@@ -11,16 +11,20 @@
     "draftAndPublish": true
   },
   "attributes": {
-    "country": {
+    "customerName": {
       "type": "string"
     },
-    "state": {
+    "status": {
       "type": "string"
     },
-    "city": {
-      "type": "string"
+    "amount": {
+      "type": "decimal"
     },
-    "street": {
+    "ref": {
+      "type": "string",
+      "unique": false
+    },
+    "orderDate": {
       "type": "string"
     }
   }
